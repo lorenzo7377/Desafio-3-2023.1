@@ -13,18 +13,16 @@ function optionSelected() {
 
     const listamunicipios = document.getElementById("municipios");
     while (listamunicipios.firstChild) {
-        listamunicipios.firstChild.remove();}
-
+        listamunicipios.firstChild.remove();
+    }
     getmunicipios(uf).then((municipios) => {
-        if (municipios.length < 50) {
-            const listamunicipios = document.getElementById("municipios");
-            for (let i = 0; i < municipios.length; i++) {
-                const municipio = municipios[i];
-                const li = document.createElement("li");
-                li.innerHTML = municipio;
-                li.classList.add("cidades");
-                listamunicipios.appendChild(li);    
-            }    
+        const listamunicipios = document.getElementById("municipios");
+        for (let i = 0; i < municipios.length; i++) {
+            const municipio = municipios[i];
+            const li = document.createElement("li");
+            li.innerHTML = municipio;
+            li.classList.add("cidades");
+            listamunicipios.appendChild(li);
         }
     });
 }

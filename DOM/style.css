@@ -63,6 +63,12 @@ select{
     background-color: #D9D9D9;
 }
 
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
 #municipios {
     background-color: transparent;
     list-style: none;
@@ -73,10 +79,16 @@ select{
     height: 586px;
     overflow-y: scroll; 
     border: 2px solid #FF731A;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 
 }
+
+#municipios li {
+    width: calc(33.33% - 10px); 
+    margin-bottom: 10px; 
+  }
 
 .cidades{
     font-family: Montserrat;
