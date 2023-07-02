@@ -86,7 +86,7 @@ select{
 }
 
 #municipios li {
-    width: calc(33.33% - 10px); 
+    width: calc(33.33% - 12px); 
     margin-bottom: 10px; 
   }
 
@@ -97,5 +97,28 @@ select{
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 35px
 }
+
+#linha1{
+    width: 0px;
+    height: 586px;
+    top: 10px;
+    color: #FF731A;
+
+}
+
+.linha-laranja {
+    position: absolute;
+    border-left: 2px solid orange; 
+    height: 586px;
+    top: 385px;
+    left: 462px;
+  }
+
+.laranja {
+    position: absolute;
+    border-left: 2px solid orange; 
+    height: 586px;
+    top: 385px;
+    left: 795px;
+  }
