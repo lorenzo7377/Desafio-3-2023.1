@@ -1,0 +1,89 @@
+
+.box{
+    position: relative;
+    top: 31px;
+    left: 26px;
+    background-color: transparent;
+    border:  solid #FF731A;
+    z-index: -3;
+    width: 1386px;
+    height: 108px;
+}
+
+.BOX{
+    position: absolute;
+    top: 39px;
+    left: 34px;
+    background-color: transparent;
+    border:  solid #FF731A;
+    z-index: -3;
+    width: 100px;
+    height: 108px;
+}
+
+
+img{
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 42px; 
+}
+
+h1{
+    font-weight: 700;
+    position: absolute;
+    margin-top: 25px;
+    left: 278px;
+    color: #FF731A;
+    font-family: Montserrat;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: left;
+}
+
+h3{
+    position: absolute;
+    top: 145px;
+    left: 569px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF731A;
+
+}
+
+select{
+    position: absolute;
+    top: 248px;
+    left: 513px;
+    width: 413px;
+    height: 48px;
+    background-color: #D9D9D9;
+}
+
+#municipios {
+    background-color: transparent;
+    list-style: none;
+    position: absolute;
+    margin-top: 263px;
+    margin-left: 152px;
+    width: 1150px; 
+    height: 586px;
+    overflow-y: scroll; 
+    border: 2px solid #FF731A;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cidades{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 35px
+}
